@@ -1,0 +1,151 @@
+@font-face {
+  font-family: Sloppy-Hand;
+  src:url(../font/Sloppy-Hand.otf);
+}
+@font-face {
+  font-family: modern-squared2;
+  src:url(../font/modern_squared2.ttf);
+}
+body{
+  margin: 0;
+  background-color: #393E46;
+}
+/*###########################################################*/
+.navbar{
+  width: 100%;
+  height: 40px;
+  background-color: #222831;
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  display: inline;
+  margin-right: 100px;
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+}
+.navbar a:hover{
+  border-bottom: 1px solid #00ADB5;
+  transition: .8s;
+}
+/*#############################################################*/
+h2,h3,h4{
+  font-family: Sloppy-Hand;
+  color: white;
+}
+#homeImg{
+  width: 100%;
+  height: 570px;
+  background-image: url("../img/home12.jpg");
+  background-size: cover;
+}
+#homeImg h1{
+  float: right;
+  margin-right: 80px;
+  color: white;
+  font-size: 150px;
+}
+/*#############################################################*/
+#stream{
+  width: 100%;
+  height: 500px;
+  /*border: 1px solid white;*/
+  display: flex;
+  justify-content: space-between;
+}
+#link, #link2, #link3{
+font-size: 50px;
+margin-left: 50px;
+}
+#live{
+  margin-left: 50px;
+}
+#chat{
+  width: 20%;
+  height: 430px;
+  padding: 0 0 5px 20px;
+  margin-right: 50px;
+  background-color: #545A64;
+  /*border: 1px solid white;*/
+}
+#chat input{
+  position: relative;
+  top: 95%;
+
+}
+/*###############################################################*/
+#team{
+  width: 100%;
+  height: 380px;
+  display: flex;
+  /*border: 1px solid white;*/
+}
+.player{
+  width: 25%;
+  height: 80%;
+  margin: 0 40px 0 40px;
+  border: 1px solid white;
+  background-color: #222831;
+}
+.player img{
+  width: 100%;
+}
+.player h3{
+  text-align: center;
+}
+.player:hover{
+  filter: opacity(.5);
+}
+#btn{
+  background-color: grey;
+  color: white;
+  width: 25%;
+  text-align: center;
+  margin-left: 37%;
+  border: 1px solid white;
+  margin-bottom: 30px;
+  font-family: Sloppy-Hand;
+}
+#btn a{
+  text-decoration: none;
+  color: white;
+}
+#btn:hover{
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+/*#############################################################*/
+#contact{
+  width: 100%;
+  height: 400px;
+}
+#bouton{
+  float: right;
+  width: 300px;
+  margin-right: 400px;
+}
+.form{
+  width: 600px;
+  height: 30px;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid #00ADB5;
+}
+
+textarea{
+  width: 600px;
+  height: 200px;
+  color: white;
+  background-color: transparent;
+  border-bottom: 1px solid #00ADB5;
+}
+form{
+  text-align: center;
+}
+/*######################################################################################*/
+#footer{
+  color: white;
+}

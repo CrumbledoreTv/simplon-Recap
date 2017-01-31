@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">
+  </head>
+  <body>
+    <div id="calc">
+      <form method="post" action="index.html">
+         <p>
+            <label for="numberA">Nombre a :</labler><br/> <input type="number" name="numberA" id="nombreA"><br/>
+            <label for="numberB">Nombre b :</labler><br/> <input type="number" name="numberB" id="nombreB"><br/><br/>
+
+             Veuillez choisir une opération :<br />
+             <input type="radio" name="operation" value="multiplication" id="mult" /> <label for="multiplication">Multiplication</label><br />
+             <input type="radio" name="operation" value="division" id="divi" /> <label for="division">Division</label><br />
+             <input type="radio" name="operation" value="addition" id="add" /> <label for="addition">Addition</label><br />
+             <input type="radio" name="operation" value="soustraction" id="sous" /> <label for="soustraction">Soustraction</label><br/><br/>
+
+             <input type="button" name="resultat" value="Calcul" onclick="check();">
+         </p>
+      </form>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
